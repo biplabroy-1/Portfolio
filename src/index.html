@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="input.css" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Biplab Roy - Portfolio</title>
+</head>
+
+<body class="bgimg">
+    <div id="home" class="flex h-full glassmorphism">
+        <nav class="w-1/5 h-screen sticky top-0 overflow-y-auto">
+            <div class="h-full flex flex-col items-center justify-evenly text-black font-bold uppercase gap-[--gap]">
+                <a href="#home" class="text-lg link">Home</a>
+                <a href="#work" class="text-lg link">Work</a>
+                <a href="#about" class="text-lg link">About Me</a>
+                <a href="#contact" class="text-lg link">Contact Me</a>
+                <div class="flex items-center justify-center gap-6">
+                    <button class="Btn" onclick="window.location.href='https://github.com/biplabroy-1'">
+                        <span class="svgContainer">
+                            <svg fill="white" viewBox="0 0 496 512" height="1.6em">
+                                <path
+                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                </path>
+                            </svg>
+                        </span>
+                        <span class="BG"></span>
+                    </button>
+                    <button class="Btn" onclick="window.location.href=''">
+                        <span class="svgContainer">
+                            <svg viewBox="0 0 320 512" height="1.3em" xmlns="http://www.w3.org/2000/svg" class="svgIcon"
+                                fill="white">
+                                <path
+                                    d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z">
+                                </path>
+                            </svg>
+                        </span>
+                        <span class="BG"></span>
+                    </button>
+
+                    <button class="Btn" onclick="window.location.href='https://www.linkedin.com/in/biplab--roy/'">
+                        <span class="svgContainer">
+                            <svg viewBox="0 0 448 512" height="1.6em" xmlns="http://www.w3.org/2000/svg" class="svgIcon"
+                                fill="white">
+                                <path
+                                    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z">
+                                </path>
+                            </svg>
+                        </span>
+                        <span class="BG"></span>
+                    </button>
+
+
+                </div>
+            </div>
+        </nav>
+
+        <main class="overflow-y-auto glassmorphism w-full">
+
+            <div class="h-[90vh]">
+                <h2 class="pl-12 pt-40 text-6xl text-black font-bold">
+                    I Am
+                    <span class="text-6xl text-[#e8ee11f7] font-bold" id="typing"></span>
+                </h2>
+                <p class="m-12 mb-0 w-1/2 text-xl">
+                    I am 19 year old, Bachelor student!!!!! studying at Brainware
+                    University. I really like to think creatively as well as making
+                    things pretty and easy to use. I can't stop learning new things; the
+                    more, the better. I also like writing codes.
+                </p>
+
+                <button onclick="downloadFile()"
+                    class="m-12 overflow-hidden relative w-36 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group">
+                    Resume
+                    <span
+                        class="absolute w-40 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
+                    <span
+                        class="absolute w-40 h-32 -top-8 -left-2 bg-purple-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
+                    <span
+                        class="absolute w-40 h-32 -top-8 -left-2 bg-purple-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
+                    <span
+                        class="group-hover:opacity-100 group-hover:duration-[1500ms] duration-100 opacity-0 absolute top-2.5 left-6 z-10">Download</span>
+                </button>
+
+
+            </div>
+
+            <hr />
+
+            <!-- Work Section -->
+            <section id="work" class="flex items-center justify-center py-24 px-16 gap-16">
+                <div class="cardss rounded-md">
+                    <div class="content">
+                        <h2 class="title">Mountain View</h2>
+                        <p class="copy">
+                            Check out all of these gorgeous mountain trips with beautiful
+                            views of, you guessed it, the mountains
+                        </p>
+                        <button
+                            class="w-28 h-12 text-white font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg shadow-lg hover:scale-105 duration-500 hover:drop-shadow-2xl hover:shadow-[#7dd3fc] hover:cursor-pointer">
+                            Button
+                        </button>
+
+                    </div>
+                </div>
+                <div class="cardss rounded-md">
+                    <div class="content">
+                        <h2 class="title">To The Beach</h2>
+                        <p class="copy">
+                            Plan your next beach trip with these fabulous destinations
+                        </p>
+                        <button
+                            class="w-28 h-12 text-white font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg shadow-lg hover:scale-105 duration-200 hover:drop-shadow-2xl hover:shadow-[#7dd3fc] hover:cursor-pointer">
+                            Button
+                        </button>
+
+                    </div>
+                </div>
+                <div class="cardss rounded-md">
+                    <div class="content">
+                        <h2 class="title">Desert Destinations</h2>
+                        <p class="copy">It's the desert you've always dreamed of</p>
+                        <button
+                            class="w-28 h-12 text-white font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg shadow-lg hover:scale-105 duration-200 hover:drop-shadow-2xl hover:shadow-[#7dd3fc] hover:cursor-pointer">
+                            Button
+                        </button>
+
+                    </div>
+                </div>
+                <div class="cardss rounded-md">
+                    <div class="content">
+                        <h2 class="title">Explore The Galaxy</h2>
+                        <p class="copy">
+                            Seriously, straight up, just blast off into outer space today
+                        </p>
+                        <button
+                            class="w-28 h-12 text-white font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg shadow-lg hover:scale-105 duration-200 hover:drop-shadow-2xl hover:shadow-[#7dd3fc] hover:cursor-pointer">
+                            Button
+                        </button>
+
+                    </div>
+                </div>
+            </section>
+
+            <hr />
+
+            <section id="about" class="h-screen">
+                <div class="flex items-center justify-evenly h-full">
+                    <div class="flex flex-col gap-8 w-1/4">
+                        <h1 class="text-4xl text-center font-bold text-[#5a27dbdb]">
+                            About Me
+                        </h1>
+                        <p class="text-lg">
+                            Hi there! I'm Biplab Roy, a passionate man from Karimpur. I love
+                            Web developer and thrive on creativity and innovation. With
+                            expertise in HTML , CSS , JS , Tailwind. I'm always eager to
+                            learn and grow. Let's connect and explore new opportunities
+                            together!
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <h1 class="skills-heading text-4xl text-center font-bold mt-4 text-[#5a27dbdb]">
+                                My Skills
+                            </h1>
+                        </div>
+                        <div class="skills-bar">
+                            <div class="bar">
+                                <div class="info">
+                                    <span>HTML</span>
+                                </div>
+                                <div class="progress-line"><span class="html"></span></div>
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>CSS</span>
+                                    </div>
+                                    <div class="progress-line"><span class="css"></span></div>
+                                    <div class="bar">
+                                        <div class="info">
+                                            <span>Javascript</span>
+                                        </div>
+                                        <div class="progress-line">
+                                            <span class="javascript"></span>
+                                        </div>
+                                        <div class="bar">
+                                            <div class="info">
+                                                <span>Tailwind</span>
+                                            </div>
+                                            <div class="progress-line">
+                                                <span class="tailwind"></span>
+                                            </div>
+
+                                            <div class="bar">
+                                                <div class="info">
+                                                    <span>Python</span>
+                                                </div>
+                                                <div class="progress-line">
+                                                    <span class="python"></span>
+                                                </div>
+
+                                                <div class="bar">
+                                                    <div class="info">
+                                                        <span>C Programming</span>
+                                                    </div>
+                                                    <div class="progress-line">
+                                                        <span class="c"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <hr />
+
+            <div id="contact" class="flex items-center mx-48 my-4 max-h-screen">
+                <div class="mx-auto">
+                    <div class="max-w-xl mx-auto my-8 glassmorphism1 rounded-2xl p-5 shadow-sm">
+                        <div class="text-center">
+                            <h1 class="my-3 text-3xl font-bold text-black">Contact Me</h1>
+                            <p class="text-black">
+                                Fill up the form below to send us a message.
+                            </p>
+                        </div>
+                        <div class="m-7">
+                            <form action="https://api.web3forms.com/submit" method="POST" id="form"
+                                class="needs-validation" novalidate>
+                                <input type="hidden" name="access_key" value="f8330508-6c5e-4540-a364-db19d1b5bbee" />
+                                <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                                <input type="checkbox" name="botcheck" id="" style="display: none" />
+
+                                <div class="flex mb-6 space-x-4">
+                                    <div class="w-full md:w-1/2">
+                                        <label for="fname" class="block mb-2 text-sm text-black">First Name</label>
+                                        <input type="text" name="name" id="first_name" placeholder="John" required
+                                            class="w-full px-3 py-2 placeholder-gray-800 border-2 border-gray-200 rounded-md focus:outline-0 bg-transparent" />
+                                        <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                            Please provide your first name.
+                                        </div>
+                                    </div>
+                                    <div class="w-full md:w-1/2">
+                                        <label for="lname" class="block mb-2 text-sm text-black">Last Name</label>
+                                        <input type="text" name="last_name" id="lname" placeholder="Doe" required
+                                            class="w-full px-3 py-2 placeholder-gray-800 border-2 border-gray-200 rounded-md focus:outline-0 bg-transparent" />
+                                        <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                            Please provide your last name.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex mb-6 space-x-4">
+                                    <div class="w-full md:w-1/2">
+                                        <label for="email" class="block mb-2 text-sm text-black">Email Address</label>
+                                        <input type="email" name="email" id="email" placeholder="your@gmail.com"
+                                            required
+                                            class="w-full px-3 py-2 placeholder-gray-800 border-2 border-gray-200 rounded-md focus:outline-0 bg-transparent" />
+                                        <div class="empty-feedback text-red-400 text-sm mt-1">
+                                            Please provide your email address.
+                                        </div>
+                                        <div class="invalid-feedback text-red-400 text-sm mt-1">
+                                            Please provide a valid email address.
+                                        </div>
+                                    </div>
+
+                                    <div class="w-full md:w-1/2">
+                                        <label for="phone" class="block text-sm mb-2 text-black">Phone Number</label>
+                                        <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567"
+                                            required
+                                            class="w-full px-3 py-2 placeholder-gray-800 border-2 border-gray-200 rounded-md focus:outline-0 bg-transparent" />
+
+                                        <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                            Please provide your phone number.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-6">
+                                    <label for="message" class="block mb-2 text-sm text-black">Your Message</label>
+
+                                    <textarea rows="5" name="message" id="message" placeholder="Your Message"
+                                        class="resize-none w-full px-3 py-2 placeholder-gray-800 border-2 border-gray-200 rounded-md focus:outline-0 bg-transparent"
+                                        required></textarea>
+                                    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                        Please enter your message.
+                                    </div>
+                                </div>
+                                <div class="mb-6">
+                                    <button type="submit"
+                                        class="w-full px-3 py-4 text-white bg-[#5a27dbdb] glass duration-300 rounded-md">
+                                        Send Message
+                                    </button>
+                                </div>
+                                <p class="text-base text-center text-gray-400" id="result"></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        (function () {
+            "use strict";
+            const forms = document.querySelectorAll(".needs-validation");
+            const result = document.getElementById("result");
+            Array.prototype.slice.call(forms).forEach(function (form) {
+                form.addEventListener(
+                    "submit",
+                    function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault();
+                            event.stopPropagation();
+
+                            form.querySelectorAll(":invalid")[0].focus();
+                        } else {
+                            const formData = new FormData(form);
+                            event.preventDefault();
+                            event.stopPropagation();
+                            const object = {};
+                            formData.forEach((value, key) => {
+                                object[key] = value;
+                            });
+                            const json = JSON.stringify(object);
+                            result.innerHTML = "Please wait...";
+
+                            fetch("https://api.web3forms.com/submit", {
+                                method: "POST",
+                                headers: {
+                                    "Content-Type": "application/json",
+                                    Accept: "application/json",
+                                },
+                                body: json,
+                            })
+                                .then(async (response) => {
+                                    let json = await response.json();
+                                    if (response.status == 200) {
+                                        result.innerHTML = json.message;
+                                        result.classList.remove("text-gray-500");
+                                        result.classList.add("text-green-500");
+                                    } else {
+                                        console.log(response);
+                                        result.innerHTML = json.message;
+                                        result.classList.remove("text-gray-500");
+                                        result.classList.add("text-red-500");
+                                    }
+                                })
+                                .catch((error) => {
+                                    console.log(error);
+                                    result.innerHTML = "Something went wrong!";
+                                })
+                                .then(function () {
+                                    form.reset();
+                                    form.classList.remove("was-validated");
+                                    setTimeout(() => {
+                                        result.style.display = "none";
+                                    }, 5000);
+                                });
+                        }
+                        form.classList.add("was-validated");
+                    },
+                    false
+                );
+            });
+        })();
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("#typing", {
+            strings: ["Biplab Roy.", "A Web developer.", "A Gamer.", "A Designer."],
+            startDelay: 100,
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true,
+        });
+    </script>
+
+    <script>
+        window.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+    </script>
+
+    <script>
+        function downloadFile() {
+            // Replace 'path_to_your_file' with the actual path or URL of your file
+            var url = './input.css';
+            var fileName = url.substring(url.lastIndexOf('/') + 1);
+
+            // Create a temporary anchor element
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = fileName;
+
+            // Append the anchor element to the document body
+            document.body.appendChild(a);
+
+            // Trigger a click event on the anchor element
+            a.click();
+
+            // Remove the anchor element from the document body
+            document.body.removeChild(a);
+        }
+    </script>
+</body>
+
+</html>
