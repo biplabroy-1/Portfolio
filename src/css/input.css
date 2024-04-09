@@ -19,7 +19,7 @@
 }
 
 .bgimg {
-  background-image: url(./bg-portfolio.webp);
+  background-image: url(../assets/bg-portfolio.webp);
   -o-object-fit: cover;
   object-fit: cover;
   background-repeat: no-repeat;
